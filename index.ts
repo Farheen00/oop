@@ -44,7 +44,7 @@ let persons = new Person();
             let student = persons.students.find(val => val == ans.student)
             if(!student){
                 persons.addStudent(ans.student);
-                console.log(chalk.green(`Hello I am ${ans.student}. Nice to talk tos you!`));
+                console.log(chalk.green(`Hello I am ${ans.student}. Nice to talk to you!`));
                 console.log(chalk.green("New student added"));
                 console.log(chalk.green("Current student list:"));
                 console.log(chalk.green(persons.students));
